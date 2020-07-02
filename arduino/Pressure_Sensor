@@ -1,1 +1,28 @@
+#define analoginput1 A0
+#define analoginput2 A1 //If two pressure sensors are used
+#define digitaloutput1 6
+#define digitaloutput2 5 
 
+int value1 = 0;
+int value2 = 0;
+
+// configuring pins
+void setup()
+{
+ Serial.begin(9600);
+ //outputs
+ pinMode(6, OUTPUT);
+ pinMode(5, OUTPUT);
+ 
+ //inputs
+ pinMode(A0, INPUT);
+ pinMode(A1, INPUT);
+}
+
+void loop()
+{
+ //Read the values from the pressure sensor
+ value1 = analogRead(A0);
+ value2 = analogRead(A1);
+ 
+}
