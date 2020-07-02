@@ -3,6 +3,7 @@
 The goal of this project is to design a wearable electronic bracelet which can be used as an emergency situation notifier. The objective is to build a pressure sensor, from the textile, which will be used to inform the emergency messages. Since the person who is wearing the bracelet has to press the sensor, there is no automatic mode involved in the design. Manual mode involves pressing the pressure sensor attached in the bracelet. Neoprene textile pressure sensitive pad in the bracelet will be useful for elderly people or physically challenged people or people who need other’s help in emergency situations. Depends on the pressure level sensed by the textile neoprene pushbutton, different types of information can be shared.
 
 # Getting Started:
+ You will create a pressure sensitive pad from neoprene textile material and send the analog output from sensor to arduino microcontroller.
 
 # Prerequisites:
  Software:
@@ -16,11 +17,28 @@ The goal of this project is to design a wearable electronic bracelet which can b
   
  #  Installing
    Please refer https://fritzing.org/home/ for installing fritzing.
+   
     1. Download the exe file from the website mentioned above
+    
     2. Click and run the installation in your local computer
+    
     3. Change the directory if you want to install in drives other than C:/
+    
    
    Please refer https://www.arduino.cc/en/Main/Software for installing Arduino IDE
+   
     1. Download the exe file from the website mentioned above
+    
     2. Click and run the installation in your local computer
+    
     3. Change the directory if you want to install in drives other than C:/
+    
+   # Running the tests
+     1. To test the pressure sensor, multimeter will be used.
+     2. Just place the positive port to one end of conductive fabric, negative port to other end (doesnt matter which end goes to which polarity)
+     3. Set the V(ohm)mA port in multimeter and measurement value as resistance
+     
+   # Author
+     Brindha Jeniefer Josephrexon
+     
+     
