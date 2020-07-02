@@ -15,5 +15,12 @@ The goal of this project is to design a wearable electronic bracelet which can b
   3. Conductive thread and fabric
   
  #  Installing
-   Please refer https://fritzing.org/home/ for installing fritzing 
+   Please refer https://fritzing.org/home/ for installing fritzing.
+    1. Download the exe file from the website mentioned above
+    2. Click and run the installation in your local computer
+    3. Change the directory if you want to install in drives other than C:/
+   
    Please refer https://www.arduino.cc/en/Main/Software for installing Arduino IDE
+    1. Download the exe file from the website mentioned above
+    2. Click and run the installation in your local computer
+    3. Change the directory if you want to install in drives other than C:/
