@@ -3,3 +3,6 @@ Neoprene and conductive thread sewing part is done.
 Visualized the output from the textile pressure sensor using multimeter.
 Getting the output from pressure sensor as input to Arduino - Upcoming task in the project
 
+Arduino code in the arduino folder is not the final one. According to the project plan, upcoming week is the time alloted for microcontroller coding.
+The one which is present now, is just the skeleton.
+
