@@ -8,10 +8,12 @@ The goal of this project is to design a wearable electronic bracelet which can b
  Software:
   1. Fritzing 
   2. Arduino IDE
- Hardware:
+  
+ Hardware: 
   1. Arduino uno + USB-b cable
   2. Neoprene material
   3. Conductive thread and fabric
   
  #  Installing
-   Please refer [1] , [2] for installing fritzing and arduino IDE
+   Please refer https://fritzing.org/home/ for installing fritzing 
+   Please refer https://www.arduino.cc/en/Main/Software for installing Arduino IDE
