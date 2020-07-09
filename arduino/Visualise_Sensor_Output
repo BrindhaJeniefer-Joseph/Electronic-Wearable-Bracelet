@@ -1,0 +1,19 @@
+/*
+Visualising the Analog Input, but with Serial Plotter!
+Demonstrates analog input by reading an analog sensor on analog pin 0.
+*/
+
+int pressureSensorPin = A0;    // select the input pin for the pressure sensor
+int sensorValue = 0;           // variable to store the value coming from the sensor
+
+void setup() {
+   pinMode(pressureSensorPin, INPUT);  // declare the input pin
+   Serial.begin(9600);                 // begin the serial monitor @ 9600 baud
+}
+
+void loop() {  
+  sensorValue = analogRead(pressureSensorPin); // read the value from the pressure sensor
+  Serial.println(sensorValue);
+  Serial.print(" ");
+  delay(20);
+}
