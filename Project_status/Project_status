@@ -4,3 +4,4 @@ Visualized the output from the textile pressure sensor using multimeter.
 Getting the output from pressure sensor as input to Arduino - Upcoming task in the project - THIS IS DONE
 Since resistance cannot be used as the input to microcontroller, another one extra circuit is being added to get the corresponding voltage for the resistance value.
 Visualized the analog output from the textile pressure sensor in serial plotter of Arduino IDE.
+Added LED glow instead of message sharing over wifi
