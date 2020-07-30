@@ -5,9 +5,12 @@ Demonstrates analog input by reading an analog sensor on analog pin 0.
 
 int pressureSensorPin = A0;    // select the input pin for the pressure sensor
 int sensorValue = 0;           // variable to store the value coming from the sensor
+int ledpin = 6;                // LED output based on the analog input signal    
+
 
 void setup() {
    pinMode(pressureSensorPin, INPUT);  // declare the input pin
+   pinMode(ledpin, OUTPUT);            // declare the output pin 
    Serial.begin(9600);                 // begin the serial monitor @ 9600 baud
 }
 
@@ -16,4 +19,14 @@ void loop() {
   Serial.println(sensorValue);
   Serial.print(" ");
   delay(20);
+  
+  // Blow the LED if the pressure range reduces below 800
+  if(analogRead(pressureSensorPin) < 800)
+  {
+  digitalWrite(ledpin, HIGH);
+  }
+  else
+  {
+    digitalWrite(ledpin, LOW);
+  }
 }
